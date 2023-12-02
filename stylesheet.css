@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 20px 10%;
+  background-color: beige;
+  overflow-x: hidden;
+}
+
+section .bar {
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+section .bar .s-box {
+  background-color: black;
+  height: 50px;
+  width: 50px;
+  position: relative;
+}
+section .title {
+  background-color: black;
+  border-radius: 50px;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+}
+section .title p {
+  color: whitesmoke;
+  font-size: 16px;
+  padding: 0 35px;
+}
+section .content {
+  align-items: center;
+  text-align: center;
+  margin: 3% 0;
+}
+section .content h1 {
+  font-size: 56px;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+section .content p {
+  max-width: 50%;
+  font-size: 20px;
+  color: lightslategray;
+  margin-left: 25%;
+}
+.bar .circle {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  border: 4px solid whitesmoke;
+  outline: whitesmoke;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+}
+section .image-container {
+  position: relative;
+  left: 8%;
+  margin: 10px 15px;
+}
+section .image-container img {
+  height: 300px;
+  width: 280px;
+}
+
+section .image-container {
+  display: grid;
+  grid-template-columns: 290px 300px 250px;
+  grid-template-rows: 320px auto 240px;
+}
+section .welcome {
+  display: grid;
+  grid-template-columns: 260px 45%;
+  grid-template-rows: 250px 50%;
+  gap: 25%;
+  margin: -12% 10%;
+}
+section .welcome img {
+  height: 350px;
+  object-fit: cover;
+  width: 350px;
+  border-radius: 50%;
+}
+section .welcome .text {
+  margin-top: 35px;
+  font-size: larger;
+  font-weight: 400;
+  /* margin: 10px; */
+}
+section .welcome .text p {
+  letter-spacing: 1px;
+  min-width: 100%;
+}
+section .welcome .text button {
+  background-color: brown;
+  padding: 15px;
+  border-radius: 30px;
+  width: 200px;
+  color: whitesmoke;
+  border: 2px solid brown;
+  cursor: pointer;
+}
+section .work {
+  display: grid;
+  grid-template: repeat(4, 400px);
+  margin-top: 28%;
+  grid-template-rows: repeat(4, 120px);
+}
+section .work h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+}
+section .work .img-work img {
+  object-fit: cover;
+  border-radius: 20px;
+  height: 280px;
+  width: 260px;
+}
+section .box {
+  display: grid;
+  background-color: black;
+  width: 65%;
+  height: 250px;
+  border-radius: 10px;
+  padding: 30px;
+  margin-left: 20%;
+  grid-template-columns: 60% 300px;
+  grid-template-rows: 100px 300px;
+  color: whitesmoke;
+  font-size: 16px;
+}
+section .box button {
+  margin-top: 90px;
+  margin-left: 30%;
+  background-color: brown;
+  padding: 10px;
+  width: 160px;
+  border-radius: 30px;
+  color: whitesmoke;
+  border: 2px solid brown;
+  cursor: pointer;
+}
+section .box h1 {
+  font-size: 35px;
+}
+section .box .foot {
+  margin-top: 50px;
+}
+section .box .sbox {
+  background-color: black;
+  height: 50px;
+  width: 50px;
+  margin-top: 90px;
+}
+section .foot .btn {
+  position: absolute;
+  margin-top: -50px;
+  left: 480px;
+}
